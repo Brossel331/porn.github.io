@@ -1,0 +1,30 @@
+.page
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.block
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+    gap: 0px;
+}
+*
+{
+    gap: 30px;
+    justify-content: center;
+}
+img
+{
+    object-fit: contain;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+.color
+{
+    color: rgb(245, 214, 151);
+    font-weight: bold;
+}
